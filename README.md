@@ -1,8 +1,8 @@
-# ChatTerm
+# Terminal-GPT
 
-ChatGPT in your terminal — no API key, no auth, no setup.
+ChatGPT in your terminal - no API key, no auth, no setup.
 
-![ChatTerm](https://img.shields.io/npm/v/@jaywyawhare/terminal-gpt?label=npm&color=cyan)
+![Terminal-GPT](https://img.shields.io/npm/v/@jaywyawhare/terminal-gpt?label=npm&color=cyan)
 ![License](https://img.shields.io/badge/license-ISC-blue)
 
 ## Quick Start
@@ -29,8 +29,8 @@ That's it. No OpenAI account, no API key, no configuration.
 |---------|-------------|
 | `/help` | Show available commands |
 | `/new`  | Start a new conversation |
-| `/quit` | Exit ChatTerm |
-| `Esc`   | Exit ChatTerm |
+| `/quit` | Exit Terminal-GPT |
+| `Esc`   | Exit Terminal-GPT |
 
 ## Install Globally
 
