@@ -1,6 +1,6 @@
 {
-  "name": "terminal-gpt",
-  "version": "0.1.2",
+  "name": "@jaywyawhare/terminal-gpt",
+  "version": "0.1.3",
   "description": "ChatGPT in your terminal — no API key, no auth",
   "type": "module",
   "bin": "dist/app.js",
