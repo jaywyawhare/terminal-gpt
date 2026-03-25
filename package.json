@@ -1,0 +1,46 @@
+{
+  "name": "terminal-gpt",
+  "version": "0.1.0",
+  "description": "ChatGPT in your terminal — no API key, no auth",
+  "type": "module",
+  "bin": {
+    "terminal-gpt": "./dist/app.js"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "dev": "tsx src/app.tsx",
+    "build": "tsc",
+    "prepublishOnly": "npm run build",
+    "start": "node dist/app.js"
+  },
+  "keywords": [
+    "chatgpt",
+    "terminal",
+    "cli",
+    "tui",
+    "gpt",
+    "ai",
+    "no-auth",
+    "ink"
+  ],
+  "author": "jaywyawhare",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "dependencies": {
+    "ink": "^6.8.0",
+    "ink-spinner": "^5.0.0",
+    "ink-text-input": "^6.0.0",
+    "react": "^19.2.4"
+  },
+  "devDependencies": {
+    "@types/node": "^25.5.0",
+    "@types/react": "^19.2.14",
+    "tsx": "^4.21.0",
+    "typescript": "^6.0.2"
+  }
+}
